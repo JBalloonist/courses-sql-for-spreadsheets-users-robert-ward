@@ -43,7 +43,7 @@ This is an example exercise.
 
 ---
 
-## Insert exercise title here
+## Getting the MAX (or MIN)
 
 ```yaml
 type: VideoExercise
