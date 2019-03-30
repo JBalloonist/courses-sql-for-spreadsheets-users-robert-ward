@@ -21,6 +21,22 @@ There are times that instead of counting or summing you simply want to get the m
 
 
 ---
+## Insert title here...
+
+```yaml
+type: "FullSlide"
+key: "5d44df30b4"
+```
+
+`@part1`
+![https://assets.datacamp.com/production/repositories/4833/datasets/d6f810c4c0a1d367b1b96e4ae6060e6d753324e4/Screenshot%202019-03-30%2011.38.19.png]()
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
