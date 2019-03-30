@@ -21,11 +21,12 @@ There are times that instead of counting or summing you simply want to get the m
 
 
 ---
-## Insert title here...
+## Max and Min
 
 ```yaml
 type: "FullSlide"
 key: "5d44df30b4"
+hide_title: false
 ```
 
 `@part1`
