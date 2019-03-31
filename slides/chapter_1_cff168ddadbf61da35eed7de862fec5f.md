@@ -54,6 +54,33 @@ Here we have the same list of podcasts from our excel sheet but stored in a SQL 
 
 
 ---
+## Max in SQL - one result
+
+```yaml
+type: "TwoColumns"
+key: "ec932b408c"
+```
+
+`@part1`
+```
+SELECT MAX()
+FROM podcasts
+```
+&nbsp;
+
+Result 
+![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png)
+
+
+`@part2`
+![](https://assets.datacamp.com/production/repositories/4833/datasets/5f43b9a3c9d1fcbc591e475b172244c5b0d5a90b/Screenshot%202019-03-31%2010.08.57.png)
+
+
+`@script`
+
+
+
+---
 ## Max in SQL
 
 ```yaml
