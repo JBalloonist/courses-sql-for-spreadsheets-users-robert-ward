@@ -38,7 +38,7 @@ hide_title: false
 
 
 ---
-## Max and Min in SQL 
+## Max in SQL
 
 ```yaml
 type: "TwoRows"
