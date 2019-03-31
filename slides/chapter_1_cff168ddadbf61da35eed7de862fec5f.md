@@ -63,6 +63,30 @@ Result
 
 
 ---
+## Max in SQL - with names 
+
+```yaml
+type: "TwoRows"
+key: "d8082fbb09"
+```
+
+`@part1`
+SQL
+```
+SELECT name, max(episodes)
+FROM podcasts
+```
+
+
+`@part2`
+
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
