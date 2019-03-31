@@ -21,7 +21,7 @@ There are times that instead of counting or summing you simply want to get the m
 
 
 ---
-## Max and Min
+## Max and Min in Spreadsheets
 
 ```yaml
 type: "FullSlide"
@@ -30,7 +30,32 @@ hide_title: false
 ```
 
 `@part1`
-![Test](https://assets.datacamp.com/production/repositories/4833/datasets/d6f810c4c0a1d367b1b96e4ae6060e6d753324e4/Screenshot%202019-03-30%2011.38.19.png)
+![Test](https://assets.datacamp.com/production/repositories/4833/datasets/f7a8eb5e1df34451c02f5a3f3f175d1c3b415d8c/Screenshot%202019-03-30%2022.59.00.png)
+
+
+`@script`
+
+
+
+---
+## Max and Min in SQL 
+
+```yaml
+type: "TwoRows"
+key: "cadca73a6a"
+```
+
+`@part1`
+Max in SQL 
+```
+SELECT MAX()
+FROM podcasts
+```
+
+
+`@part2`
+Result
+![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png)
 
 
 `@script`
