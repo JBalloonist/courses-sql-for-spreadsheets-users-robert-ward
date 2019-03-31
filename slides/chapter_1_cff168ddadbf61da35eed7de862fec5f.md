@@ -38,6 +38,22 @@ As an experienced spreadsheets user you are certainly familiar with the MAX and 
 
 
 ---
+## Max in SQL	
+
+```yaml
+type: "FullSlide"
+key: "e3999ef6b7"
+```
+
+`@part1`
+![](https://assets.datacamp.com/production/repositories/4833/datasets/5f43b9a3c9d1fcbc591e475b172244c5b0d5a90b/Screenshot%202019-03-31%2010.08.57.png)
+
+
+`@script`
+Here we have the same list of podcasts from our excel sheet but stored in a SQL table. We want to get the max of the episodes column.
+
+
+---
 ## Max in SQL
 
 ```yaml
