@@ -30,11 +30,11 @@ hide_title: false
 ```
 
 `@part1`
-![Test](https://assets.datacamp.com/production/repositories/4833/datasets/f7a8eb5e1df34451c02f5a3f3f175d1c3b415d8c/Screenshot%202019-03-30%2022.59.00.png)
+![Test](https://assets.datacamp.com/production/repositories/4833/datasets/8955749e97c652135520e0da942a046d96bc5e77/Screenshot%202019-03-31%2009.56.01.png)
 
 
 `@script`
-
+As an experienced spreadsheets user you are certainly familiar with the MAX and MIN functions. Max and Min work very similarly with some additional capabilities.
 
 
 ---
@@ -63,7 +63,7 @@ Result
 
 
 ---
-## Max in SQL - with names 
+## Max in SQL - with names
 
 ```yaml
 type: "TwoRows"
