@@ -183,6 +183,22 @@ Now that we add the name column, querying for the max episodes by category is a 
 
 
 ---
+## SQL MIN - the same but opposite
+
+```yaml
+type: "FullSlide"
+key: "d9c4372b66"
+```
+
+`@part1`
+
+
+
+`@script`
+You will practice with Min in the exercises but I will quickly touch on it here. Min works exactly the same as Max does in all of these examples with the exception that it returns the smallest number instead of the largest. That is the only difference.
+
+
+---
 ## Let's practice!
 
 ```yaml
