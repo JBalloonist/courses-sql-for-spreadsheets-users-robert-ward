@@ -169,11 +169,17 @@ key: "32920ea9c7"
 ```
 
 `@part1`
-
+SQL 
+```
+SELECT category,  max(episodes)
+FROM podcasts
+GROUP BY category
+```{{1}}
 
 
 `@part2`
-
+Result 
+![](https://assets.datacamp.com/production/repositories/4833/datasets/a9642317eab31cc76813ab44033a2034ace60a4a/Screenshot%202019-03-31%2010.38.56.png){{2}}
 
 
 `@script`
