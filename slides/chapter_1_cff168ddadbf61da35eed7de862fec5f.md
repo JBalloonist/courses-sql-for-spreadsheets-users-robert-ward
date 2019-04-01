@@ -85,11 +85,38 @@ FROM podcasts
 
 
 `@script`
+Here you can see that the result of our query was just one number - the max number of episodes. Nice as that is, that may not be all the information we are after. We have no idea which podcast has the max number of episodes. If we want that, we need to add in the name column.
+
+
+---
+## Max with additional columns
+
+```yaml
+type: "TwoRows"
+key: "9d3b7da56d"
+```
+
+`@part1`
+```
+SELECT MAX(episodes)
+FROM podcasts
+```
+&nbsp;
+
+# Result 
+![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png)
+
+
+`@part2`
+
+
+
+`@script`
 
 
 
 ---
-## Max in SQL - with Group By 
+## Max with Group By 
 
 ```yaml
 type: "TwoRows"
