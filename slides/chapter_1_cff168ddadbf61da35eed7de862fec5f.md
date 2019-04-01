@@ -89,7 +89,30 @@ Here you can see that the result of our query was just one number - the max numb
 
 
 ---
-## Max with additional columns
+## MAX - with additional columns
+
+```yaml
+type: "FullSlide"
+key: "32f5630f1c"
+```
+
+`@part1`
+```
+SELECT name, max(episodes)
+FROM podcasts
+```
+&nbsp;
+
+# Result 
+![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png)
+
+
+`@script`
+
+
+
+---
+## Max - with additional columns
 
 ```yaml
 type: "TwoRows"
@@ -98,13 +121,13 @@ key: "9d3b7da56d"
 
 `@part1`
 ```
-SELECT MAX(episodes)
+SELECT name, max(episodes)
 FROM podcasts
 ```
 &nbsp;
 
 # Result 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png)
+![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png)
 
 
 `@part2`
