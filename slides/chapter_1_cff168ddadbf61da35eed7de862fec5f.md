@@ -71,7 +71,7 @@ code_zoom: 100
 
 `@part1`
 ```
-SELECT MAX() 
+SELECT MAX(episodes)
 FROM podcasts
 ```
 &nbsp;
