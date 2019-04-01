@@ -89,7 +89,7 @@ Here you can see that the result of our query was just one number - the max numb
 
 
 ---
-## MAX - with additional columns
+## MAX - with additional column(s)
 
 ```yaml
 type: "FullSlide"
@@ -100,42 +100,32 @@ key: "32f5630f1c"
 ```
 SELECT name, max(episodes)
 FROM podcasts
-```
+```{{1}}
 &nbsp;
 
-# Result 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png)
+![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png){{3}}
 
 
 `@script`
-
+Here we add an additional column - the name - and the resulting output is much more informative. The result is the same but also gives us the name of the podcast that has the most episodes.
 
 
 ---
-## Max - with additional columns
+## Get the Max by category?
 
 ```yaml
-type: "TwoRows"
-key: "9d3b7da56d"
+type: "FullSlide"
+key: "0e735a1086"
 ```
 
 `@part1`
-```
-SELECT name, max(episodes)
-FROM podcasts
-```
-&nbsp;
+podcasts table {{1}}
 
-# Result 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png)
-
-
-`@part2`
-
+![](https://assets.datacamp.com/production/repositories/4833/datasets/5f43b9a3c9d1fcbc591e475b172244c5b0d5a90b/Screenshot%202019-03-31%2010.08.57.png){{2}}
 
 
 `@script`
-
+You may have noticed in our podcasts table that there was a category column. What if we wanted to get the max number of episodes by category? Once again it is our friend the GROUP BY statement. So far it has not been required when using MAX, but now that we are introducing additional columns it is.
 
 
 ---
@@ -161,9 +151,7 @@ Result
 
 
 `@script`
-Now lets say you want to get the max number of episodes by category. This is where the the power of SQL comes in compared to spreadsheets. You simply add the additional column you want into your query. You also need to add a group by statement 
 
-You have already learned how to use group by in the previous lessons covering count and sum.
 
 
 ---
