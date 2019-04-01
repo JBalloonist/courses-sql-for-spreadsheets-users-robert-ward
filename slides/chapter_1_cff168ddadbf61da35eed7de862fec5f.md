@@ -38,7 +38,7 @@ Max and Min in SQL are very similar. In this sample spreadsheet of our podcast t
 
 
 ---
-## Max in SQL	
+## Max in SQL
 
 ```yaml
 type: "FullSlide"
@@ -129,7 +129,7 @@ You may have noticed in our podcasts table that there was a category column. Wha
 
 
 ---
-## Max with Group By 
+## Max with Group By
 
 ```yaml
 type: "TwoRows"
@@ -150,14 +150,10 @@ Result
 ![](https://assets.datacamp.com/production/repositories/4833/datasets/a9642317eab31cc76813ab44033a2034ace60a4a/Screenshot%202019-03-31%2010.38.56.png){{2}}
 
 
-`@citations`
+`@script`
 Once again we use the GROUP BY statement. So far GROUP BY has not been required when using MAX, but now that we are introducing additional columns it is.
 
 Once again however this result by itself is not very useful.
-
-
-`@script`
-
 
 
 ---
@@ -171,7 +167,7 @@ key: "32920ea9c7"
 `@part1`
 SQL 
 ```
-SELECT category,  max(episodes)
+SELECT name, category, max(episodes)
 FROM podcasts
 GROUP BY category
 ```{{1}}
@@ -179,11 +175,11 @@ GROUP BY category
 
 `@part2`
 Result 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/a9642317eab31cc76813ab44033a2034ace60a4a/Screenshot%202019-03-31%2010.38.56.png){{2}}
+![](https://assets.datacamp.com/production/repositories/4833/datasets/4f6f736113d5cbcbba04c8bf132f1f10603495dd/Screenshot%202019-03-31%2023.13.37.png){{2}}
 
 
 `@script`
-
+Now that we add the name column, querying for the max episodes by category is a lot more useful. Note that we only needed to GROUP BY category. This is a little different than grouping by with SUM as the database is not doing any adding. It is simply taking the max of each category. If we gave the group by statement both name and category, it would return the entire table! This is because each name is unique and by default the episode count is the max of each of those names.
 
 
 ---
