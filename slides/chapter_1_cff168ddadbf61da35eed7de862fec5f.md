@@ -125,7 +125,7 @@ podcasts table {{1}}
 
 
 `@script`
-You may have noticed in our podcasts table that there was a category column. What if we wanted to get the max number of episodes by category? Once again it is our friend the GROUP BY statement. So far it has not been required when using MAX, but now that we are introducing additional columns it is.
+You may have noticed in our podcasts table that there was a category column. What if we wanted to get the max number of episodes by category?
 
 
 ---
@@ -137,17 +137,43 @@ key: "d8082fbb09"
 ```
 
 `@part1`
-SQL
+SQL 
 ```
 SELECT category,  max(episodes)
 FROM podcasts
 GROUP BY category
-```
+```{{1}}
 
 
 `@part2`
-Result
-![](https://assets.datacamp.com/production/repositories/4833/datasets/a9642317eab31cc76813ab44033a2034ace60a4a/Screenshot%202019-03-31%2010.38.56.png)
+Result 
+![](https://assets.datacamp.com/production/repositories/4833/datasets/a9642317eab31cc76813ab44033a2034ace60a4a/Screenshot%202019-03-31%2010.38.56.png){{2}}
+
+
+`@citations`
+Once again we use the GROUP BY statement. So far GROUP BY has not been required when using MAX, but now that we are introducing additional columns it is.
+
+Once again however this result by itself is not very useful.
+
+
+`@script`
+
+
+
+---
+## Max and Group By - Continued
+
+```yaml
+type: "TwoRows"
+key: "32920ea9c7"
+```
+
+`@part1`
+
+
+
+`@part2`
+
 
 
 `@script`
