@@ -63,29 +63,23 @@ Lets look at at Max for our first example. Here we have the same dataset as in o
 ## Max in SQL - one result
 
 ```yaml
-type: "TwoRows"
-key: "0e7b892510"
-disable_transition: false
-code_zoom: 100
+type: "FullSlide"
+key: "65c1fe50a1"
 ```
 
 `@part1`
 ```
 SELECT MAX(episodes)
-FROM podcasts
+FROM podcasts{{1}}
 ```
 &nbsp;
 
-# Result 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png)
-
-
-`@part2`
-
+Result 
+![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png){{2}}
 
 
 `@script`
-Here you can see that the result of our query was just one number - the max number of episodes. Nice as that is, that may not be all the information we are after. We have no idea which podcast has the max number of episodes. If we want that, we need to add in the name column.
+Here you can see that the result of our query was just one number - the max number of episodes. This is the same as in our spreadsheet. However this may not be all the information we are after. We have no idea which podcast has the max number of episodes. If we want that, we need to add the name column.
 
 
 ---
