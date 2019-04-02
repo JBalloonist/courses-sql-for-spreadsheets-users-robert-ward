@@ -79,7 +79,7 @@ Result
 
 
 `@script`
-Here you can see that the result of our query was just one number - the max number of episodes. This is the same as in our spreadsheet. However this may not be all the information we are after. We have no idea which podcast has the max number of episodes. If we want that, we need to add the name column.
+Here you can see that the result of our query was just one number - the max number of episodes. This is the same as in our spreadsheet. However this may not be all the information we are after. We have no idea which podcast has the max number of episodes.
 
 
 ---
