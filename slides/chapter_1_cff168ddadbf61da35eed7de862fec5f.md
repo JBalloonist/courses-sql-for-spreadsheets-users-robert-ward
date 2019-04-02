@@ -70,12 +70,12 @@ key: "65c1fe50a1"
 `@part1`
 ```
 SELECT MAX(episodes)
-FROM podcasts{{1}}
+FROM podcasts
 ```
 &nbsp;
 
 Result 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png){{2}}
+![](https://assets.datacamp.com/production/repositories/4833/datasets/02726a8eae58b6cae2b32d71a5e65e613651159a/Screenshot%202019-03-30%2023.08.17.png)
 
 
 `@script`
