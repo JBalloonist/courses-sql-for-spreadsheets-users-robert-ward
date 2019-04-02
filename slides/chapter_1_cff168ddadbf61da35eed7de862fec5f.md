@@ -145,8 +145,10 @@ Result
 
 
 `@script`
-Now we will once again use the GROUP BY statement. In this query we are selecting the category and once again getting the max number of episodes. The result is the max for each category.
-Of course the result by itself is not very useful. We have the max for each category but once again do not know which podcasts belong to each category.
+Now we will once again use the GROUP BY statement. In this query we are selecting the category and once again getting the max number of episodes. In addition we have added the GROUP BY clause and we are grouping by category. 
+
+The result is the max number of episodes for each category.
+Once again we have the max for each category but do not know which podcasts belong to each category.
 
 
 ---
