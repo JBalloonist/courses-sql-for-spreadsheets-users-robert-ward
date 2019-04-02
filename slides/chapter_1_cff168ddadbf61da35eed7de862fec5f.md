@@ -34,7 +34,7 @@ hide_title: false
 
 
 `@script`
-Max and Min in SQL are very similar. In this spreadsheet containing our podcast table we are pulling both the max and min of the episodes and total time in minutes columns. We can do the same thing in SQL.
+In this spreadsheet containing our podcast table we are pulling both the max and min of the episodes and total time in minutes columns. We can do the same thing in SQL.
 
 
 ---
