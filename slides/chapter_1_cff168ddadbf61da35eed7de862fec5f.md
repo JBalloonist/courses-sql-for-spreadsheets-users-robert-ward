@@ -172,7 +172,7 @@ Result
 
 
 `@script`
-We can add the name column back to our SELECT statement and now we know the podcast with the MAX number of episodes for in each category. Note that we only needed to put category in our GROUP BY clause. This is a little different than grouping with SUM as the database is not doing any adding. It is simply taking the max of each category. If we gave the GROUP BY  statement both name and category, it would return the entire table! This is because each podcast name is unique. The episode count is the max of each of those names.
+We can add the name column back to our SELECT statement and now we know the podcast with the MAX number of episodes in each category. Note that we only needed to put category in our GROUP BY clause. This is a little different than grouping with SUM as the database is not doing any combining of rows. It is simply taking the max of each category. If we gave the GROUP BY statement both name and category, it would return the entire table! This is because each podcast name is unique and the episode count is the max of each of those names.
 
 
 ---
@@ -184,11 +184,16 @@ key: "d9c4372b66"
 ```
 
 `@part1`
-
+```
+SELECT name, category, min(episodes)
+FROM podcasts
+GROUP BY category
+```
+![](https://assets.datacamp.com/production/repositories/4833/datasets/bc0094fe1a1eafcc3ec6c6add70f8777db4f8ad4/Screenshot%202019-04-01%2022.09.51.png)
 
 
 `@script`
-You will practice with Min in the exercises but I will quickly touch on it here. Min works exactly the same as Max does in all of these examples with the exception that it returns the smallest number instead of the largest. That is the only difference.
+You will practice with Min in the exercises but I will quickly mention it here. Min works exactly the same as Max does in all of these examples with the exception that it returns the smallest number instead of the largest.
 
 
 ---
