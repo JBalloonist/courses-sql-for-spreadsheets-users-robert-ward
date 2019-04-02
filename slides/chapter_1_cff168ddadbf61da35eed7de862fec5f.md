@@ -101,7 +101,7 @@ FROM podcasts
 
 
 `@script`
-Here we add an additional column - the name - and the resulting output is much more informative. The result is the same but also gives us the name of the podcast that has the most episodes.
+Here we add an additional column - the name - and the resulting output is much more informative. The result is the same but also gives us the name of the podcast that has the most episodes which is a lot more informative.
 
 
 ---
