@@ -17,7 +17,7 @@ title: Data Scientist at Applied Information Sciences (AIS)
 
 
 `@script`
-There are times that instead of counting or summing you simply want to get the maximum or minimum value of a particular column. As an experienced spreadsheets user you are certainly familiar with the MAX and MIN functions.
+There are times that instead of counting or summing you simply want to get the maximum or minimum value of a particular column from your dataset. As an experienced spreadsheets user you are certainly familiar with the MAX and MIN functions.
 
 
 ---
