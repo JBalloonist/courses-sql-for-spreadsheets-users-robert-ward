@@ -145,9 +145,7 @@ Result
 
 
 `@script`
-Once again we use the GROUP BY statement. So far GROUP BY has not been required when using MAX, but now that we are introducing additional columns it is.
-
-Once again however this result by itself is not very useful.
+Once again we use the GROUP BY statement. So far GROUP BY has not been required when using MAX, but now that we are aggregating on a specific column it is. Of course result by itself is not very useful. We have the max for each category but do not know which podcasts belong to each category.
 
 
 ---
@@ -173,7 +171,7 @@ Result
 
 
 `@script`
-Now that we add the name column, querying for the max episodes by category is a lot more useful. Note that we only needed to GROUP BY category. This is a little different than grouping by with SUM as the database is not doing any adding. It is simply taking the max of each category. If we gave the group by statement both name and category, it would return the entire table! This is because each name is unique and by default the episode count is the max of each of those names.
+We can add the name column back to our SELECT statement and now we know the podcast with the MAX number of episodes for in each category. Note that we only needed to put category in our GROUP BY clause. This is a little different than grouping with SUM as the database is not doing any adding. It is simply taking the max of each category. If we gave the GROUP BY  statement both name and category, it would return the entire table! This is because each podcast name is unique. The episode count is the max of each of those names.
 
 
 ---
