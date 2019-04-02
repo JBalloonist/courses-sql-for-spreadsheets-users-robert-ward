@@ -176,7 +176,7 @@ Result
 `@script`
 We can add the name column back to our SELECT statement and now we know the podcast with the MAX number of episodes in each category. 
 
-Note that we only needed to put category in our GROUP BY clause. This is a little different than grouping with SUM as the database is not doing any combining of rows. It is simply taking the max of each category. If we gave the GROUP BY statement both name and category, it would return every row! This is because each podcast name is unique and the episode count is the max of each of those names.
+Note that we only needed to put category in our GROUP BY clause. This is a little different than grouping with SUM as the database is not doing any combining of rows. It is simply taking the max of each category. If we gave the GROUP BY statement both name and category, it would return every row! This is because each podcast name is unique and the episode count is the max of podcast name.
 
 
 ---
