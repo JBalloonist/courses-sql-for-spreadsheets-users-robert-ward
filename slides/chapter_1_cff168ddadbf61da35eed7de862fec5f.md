@@ -56,7 +56,7 @@ FROM podcasts
 
 
 `@script`
-Lets look at at Max for our first example. Here we have the same dataset as in our spreadsheet but stored in a SQL table. We want to find the highest number from the episodes column. Just as in our previous aggregation exercises, we write a SELECT statement followed by the function - SELECT Max(episodes) FROM podcasts. In this example we leave out the GROUP BY statement because we do not have any additional columns.
+Here we have the same dataset as in our spreadsheet but stored in a SQL table. We want to find the highest number from the episodes column. Just as in our previous aggregation exercises, we write a SELECT statement followed by the function - SELECT Max(episodes) FROM podcasts. In this example we leave out the GROUP BY statement because we do not have any additional columns.
 
 
 ---
