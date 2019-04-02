@@ -119,7 +119,7 @@ podcasts table {{1}}
 
 
 `@script`
-You may have noticed in our podcasts table that there was a category column. What if we wanted to get the max number of episodes by category?
+You may have noticed in our podcasts table that there was a category column. What if we wanted to get the max number of episodes for each category?
 
 
 ---
