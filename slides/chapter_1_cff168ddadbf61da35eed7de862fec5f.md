@@ -17,7 +17,7 @@ title: Data Scientist at Applied Information Sciences (AIS)
 
 
 `@script`
-There are times that instead of counting or summing you simply want to get the maximum or minimum value of a particular column from your dataset. As an experienced spreadsheets user you are certainly familiar with the MAX and MIN functions.
+There are times that instead of counting or summing you simply want to get the maximum or minimum value of a particular column from your dataset. As an experienced spreadsheet user you are most likely familiar with the MAX and MIN functions.
 
 
 ---
@@ -30,11 +30,11 @@ hide_title: false
 ```
 
 `@part1`
-![Test](https://assets.datacamp.com/production/repositories/4833/datasets/8955749e97c652135520e0da942a046d96bc5e77/Screenshot%202019-03-31%2009.56.01.png)
+![Test](https://assets.datacamp.com/production/repositories/4833/datasets/8955749e97c652135520e0da942a046d96bc5e77/Screenshot%202019-03-31%2009.56.01.png){{1}}
 
 
 `@script`
-Max and Min in SQL are very similar. In this sample spreadsheet of our podcast table we are pulling both the max and min of the episodes and total time in minutes columns. We can do the same thing in SQL.
+Max and Min in SQL are very similar. In this spreadsheet containing our podcast table we are pulling both the max and min of the episodes and total time in minutes columns. We can do the same thing in SQL.
 
 
 ---
@@ -46,17 +46,17 @@ key: "e3999ef6b7"
 ```
 
 `@part1`
-podcasts table
-![](https://assets.datacamp.com/production/repositories/4833/datasets/5f43b9a3c9d1fcbc591e475b172244c5b0d5a90b/Screenshot%202019-03-31%2010.08.57.png)
+podcasts database table
+![](https://assets.datacamp.com/production/repositories/4833/datasets/5f43b9a3c9d1fcbc591e475b172244c5b0d5a90b/Screenshot%202019-03-31%2010.08.57.png){{1}}
 
 ```
 SELECT MAX(episodes)
 FROM podcasts
-```
+```{{2}}
 
 
 `@script`
-First lets like at Max. Here we the same dataset as in our spreadsheet but stored in a SQL table. We want to get highest number from the episodes column. Just as in our previous aggregation exercises, we write a SELECT FROM statement. In this example we leave out the GROUP BY statement because we are not including any additional columns.
+Lets look at at Max for our first example. Here we have the same dataset as in our spreadsheet but stored in a SQL table. We want to find the highest number from the episodes column. Just as in our previous aggregation exercises, we write a SELECT statement followed by the function - SELECT Max(episodes) FROM podcasts. In this example we leave out the GROUP BY statement because we are did not add any additional columns.
 
 
 ---
@@ -103,7 +103,7 @@ FROM podcasts
 ```{{1}}
 &nbsp;
 
-![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png){{3}}
+![](https://assets.datacamp.com/production/repositories/4833/datasets/4ee42879d2003e5114f27acb7a413dd1d8fb45f8/Screenshot%202019-03-31%2022.37.37.png){{2}}
 
 
 `@script`
