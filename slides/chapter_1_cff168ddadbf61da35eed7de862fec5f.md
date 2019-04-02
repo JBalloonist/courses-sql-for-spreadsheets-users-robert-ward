@@ -145,7 +145,8 @@ Result
 
 
 `@script`
-Once again we use the GROUP BY statement. So far GROUP BY has not been required when using MAX, but now that we are aggregating on a specific column it is. Of course result by itself is not very useful. We have the max for each category but do not know which podcasts belong to each category.
+Now we will once again use the GROUP BY statement. In this query we are selecting the category and once again getting the max number of episodes. The result is the max for each category.
+Of course the result by itself is not very useful. We have the max for each category but once again do not know which podcasts belong to each category.
 
 
 ---
